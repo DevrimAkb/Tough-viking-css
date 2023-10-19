@@ -42,7 +42,6 @@ nav a {
     width: 95%;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    // border: 1px solid black;
 }
 
 .team-container {
@@ -57,36 +56,59 @@ nav a {
         flex: 1;
 
         & img {
-            // width: 100%;
-            width: 35rem;
+             width: 80%;
+            border-radius: 10%;
             height: 20rem;
+            box-shadow: 10px 5px 5px black;
         }
     }
     & .team-text {
+        font-family: sans-serif;
         flex: 1;
     }
 }
 
-
-.vd-picture {
+.vd-title {
+    width: 95%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5px;
-    & img {
-        height: 20rem;
-        width: 20rem;
-        margin: auto;
-        border-radius: 10px;
-    }
-    & .vd-info {
-        margin-left: 20px;
-        margin-top: 20px;
-        width: 60%;
-    }
-    .contact-me a {
-        color: black;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.contact-vd {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    &.contact-vd a {
         text-decoration: none;
+        color: black;
+    }
+}
+
+
+.vd-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    & .vd-picture {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+
+        & img {
+             border-radius: 10%;
+            width: 70%;
+            height: 20rem;
+            box-shadow: 10px 5px 5px black;
+        }
+    }
+    & .vd-text {
+        font-family: sans-serif;
+        flex: 1;
     }
 }
 
@@ -97,10 +119,12 @@ nav a {
 }
 
 form {
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
-    .form-container {
+    & .form-container {
+        padding: 20px;
         width: 100%;
         background-color: gray;  
         color: white;
@@ -108,4 +132,23 @@ form {
         flex-direction: column;
         align-items: center;
     }
+    & input[type=text]{
+        width: 24rem;
+        padding: 8px;
+    }
+    & input[type=mail] {
+        width: 24rem;
+        padding: 8px;
+    }
+    & textarea {
+        width: 25rem;
+    }
+    & button {
+        margin-top: 5px;
+        border: 0;
+        width: 25rem;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    
 }

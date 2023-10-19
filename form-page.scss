@@ -53,6 +53,24 @@ nav a {
         width: 50%;
         margin: auto;
     }
+    & input[type=text] {
+        width: 24rem;
+        padding: 8px;
+    }
+    & input [type=submit] {
+        width: 24rem;
+    }
+    & button {
+        margin-top: 5px;
+        width: 25rem;
+        padding: 8px;
+        border: none;
+        border-radius: 10px;
+        &:hover {
+            transform: scale(1.1);
+            background-color: gray;
+        }
+    }
 }
 
 .tshirt {
@@ -61,4 +79,10 @@ nav a {
     &:hover {
         transform: scale(1.1);
     }
+}
+
+footer {
+    margin-top: 2rem;
+    height: 7rem;
+    background-color: black;
 }

@@ -57,33 +57,56 @@ nav a {
   flex: 1;
 }
 .team-container .team-picture img {
-  width: 35rem;
+  width: 80%;
+  border-radius: 10%;
   height: 20rem;
+  box-shadow: 10px 5px 5px black;
 }
 .team-container .team-text {
+  font-family: sans-serif;
   flex: 1;
 }
 
-.vd-picture {
+.vd-title {
+  width: 95%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 5px;
+  justify-content: flex-end;
+  font-family: sans-serif;
 }
-.vd-picture img {
-  height: 20rem;
-  width: 20rem;
-  margin: auto;
-  border-radius: 10px;
+
+.contact-vd {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
 }
-.vd-picture .vd-info {
-  margin-left: 20px;
-  margin-top: 20px;
-  width: 60%;
-}
-.vd-picture .contact-me a {
-  color: black;
+.contact-vd.contact-vd a {
   text-decoration: none;
+  color: black;
+}
+
+.vd-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  gap: 10px;
+}
+.vd-container .vd-picture {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.vd-container .vd-picture img {
+  border-radius: 10%;
+  width: 70%;
+  height: 20rem;
+  box-shadow: 10px 5px 5px black;
+}
+.vd-container .vd-text {
+  font-family: sans-serif;
+  flex: 1;
 }
 
 .contact-us {
@@ -92,15 +115,35 @@ nav a {
 }
 
 form {
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 form .form-container {
+  padding: 20px;
   width: 100%;
   background-color: gray;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+form input[type=text] {
+  width: 24rem;
+  padding: 8px;
+}
+form input[type=mail] {
+  width: 24rem;
+  padding: 8px;
+}
+form textarea {
+  width: 25rem;
+}
+form button {
+  margin-top: 5px;
+  border: 0;
+  width: 25rem;
+  padding: 8px;
+  border-radius: 5px;
 }/*# sourceMappingURL=about-us.css.map */
