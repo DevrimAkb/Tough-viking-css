@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  overflow: auto;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+.logo img {
+  position: absolute;
+  height: 46.4px;
+  width: 170px;
+  margin: 0;
+  /* padding: 0; */
+}
+
+nav a {
+  margin: 0 2rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.company-info {
+  width: 95%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  gap: 10px;
+}
+.team-container .team-picture {
+  flex: 1;
+}
+.team-container .team-picture img {
+  width: 35rem;
+  height: 20rem;
+}
+.team-container .team-text {
+  flex: 1;
+}
+
+.vd-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.vd-picture img {
+  height: 20rem;
+  width: 20rem;
+  margin: auto;
+  border-radius: 10px;
+}
+.vd-picture .vd-info {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 60%;
+}
+.vd-picture .contact-me a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-us {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+form .form-container {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=about-us.css.map */

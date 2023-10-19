@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    <link rel="stylesheet" href="./form-page.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="#"><img src="./pictures/banner_TV_800x240.png" alt="Company logo"></a>
+    </div>
+    <nav class="navbar">
+        <ul>          
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About us</a></li>
+            <li><a href="./index.html">Bookings</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <img src="./pictures/banner_TV_800x240.png" alt="Company banner">
+    </div>
+    <div class="container">
+        <form>
+            <div>
+                <div>
+                    <label for="first-name">
+                        First name
+                    </label> <br>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="last-name">
+                        Last name
+                    </label> <br>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="private-or-company">
+                        Private or company
+                    </label> <br>
+                    <select name="private-or-company">
+                        <option value="">Private</option>
+                        <option value="1">Company</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="number-of-people">
+                        Amount of people
+                    </label> <br>
+                    <input type="number"
+                    name="amount"
+                    placeholder="amount of people"
+                    min="1"
+                    required
+                    >
+                </div>
+                <div>
+                    <label for="shirt">
+                        Amount of T-shirts
+                    </label> <br>
+                    <input type="number"
+                    name="number"
+                    placeholder="tshirts">
+                </div>
+                <div>
+                    <label for="Upload-logo">
+                        Logos on T-shirt (optional)
+                    </label> <br>
+                    <input type="file">
+                    <input type="file">
+                    <input type="file">
+                    <input type="file"> 
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+            <div>
+                <img class="tshirt" src="./pictures/T-shirt.jpg" alt="Tshirt">
+            </div>
+            </form>
+    </div>
+    </body>
+    </html>
