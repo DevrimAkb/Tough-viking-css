@@ -190,6 +190,13 @@ h1 {
   color: black;
 }
 
+footer {
+  margin-top: 2rem;
+  height: 7rem;
+  background-color: black;
+  color: white;
+}
+
 @media screen and (max-width: 849px) {
   .flex-container .events {
     width: 30rem;

@@ -146,4 +146,15 @@ form button {
   width: 25rem;
   padding: 8px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 568px) {
+  .logo img {
+    display: none;
+  }
+}
+@media screen and (max-width: 447px) {
+  li {
+    float: none;
+  }
 }/*# sourceMappingURL=about-us.css.map */

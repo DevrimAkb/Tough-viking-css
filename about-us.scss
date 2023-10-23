@@ -152,3 +152,17 @@ form {
     }
     
 }
+
+@media screen and (max-width: 568px)
+{
+  .logo img {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 447px)
+{
+  li {
+      float:none;
+  }
+}

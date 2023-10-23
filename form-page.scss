@@ -47,9 +47,11 @@ nav a {
 .container {
     display: flex;
     margin-top: 5rem;
+    // box-shadow: 2px 2px black;
     form {
         display: flex;
         // border: 1px solid red;
+    // border: 1px solid gray;
         width: 50%;
         margin: auto;
     }
@@ -85,4 +87,18 @@ footer {
     margin-top: 2rem;
     height: 7rem;
     background-color: black;
+}
+
+@media screen and (max-width: 568px)
+{
+  .logo img {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 447px)
+{
+  li {
+      float:none;
+  }
 }

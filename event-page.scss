@@ -59,6 +59,7 @@ h1 {
         &-image {
             width: 20rem;
             height: 15rem;
+            filter: grayscale(100%);
             & img {
                 
                 width: 100%;
@@ -91,4 +92,18 @@ footer {
     margin-top: 2rem;
     height: 7rem;
     background-color: black;
+}
+
+@media screen and (max-width: 568px)
+{
+  .logo img {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 447px)
+{
+  li {
+      float:none;
+  }
 }

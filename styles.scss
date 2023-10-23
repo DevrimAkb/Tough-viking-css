@@ -203,6 +203,13 @@ h1 {
       }
   }
 
+  footer {
+    margin-top: 2rem;
+    height: 7rem;
+    background-color: black;
+    color: white;
+}
+
   @media screen and (max-width: 849px)
   {
        .flex-container {

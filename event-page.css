@@ -58,6 +58,7 @@ h1 {
 .image-container .activity-image {
   width: 20rem;
   height: 15rem;
+  filter: grayscale(100%);
 }
 .image-container .activity-image img {
   width: 100%;
@@ -87,4 +88,15 @@ footer {
   margin-top: 2rem;
   height: 7rem;
   background-color: black;
+}
+
+@media screen and (max-width: 568px) {
+  .logo img {
+    display: none;
+  }
+}
+@media screen and (max-width: 447px) {
+  li {
+    float: none;
+  }
 }/*# sourceMappingURL=event-page.css.map */
