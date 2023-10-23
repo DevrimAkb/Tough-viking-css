@@ -1,23 +1,20 @@
 body {
     margin: 0;
-    overflow: auto;
 }
 
 .navbar {
     width: 100%;
     overflow: auto;
     background-color: black;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-li {
-    float: right;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        li {
+            float: right;
+          }
+    } 
 }
 
 .logo img {
@@ -25,8 +22,7 @@ li {
     height: 46.4px;
     width: 170px;
     margin: 0;
-    /* padding: 0; */
-}
+} 
 
 nav a {
     margin: 0 2rem;
@@ -56,7 +52,7 @@ nav a {
         flex: 1;
 
         & img {
-             width: 80%;
+            width: 80%;
             border-radius: 10%;
             height: 20rem;
             box-shadow: 10px 5px 5px black;

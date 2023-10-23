@@ -7,15 +7,13 @@ body {
   overflow: auto;
   background-color: black;
 }
-
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-
-li {
+.navbar ul li {
   float: right;
 }
 
@@ -24,7 +22,6 @@ li {
   height: 46.4px;
   width: 170px;
   margin: 0;
-  /* padding: 0; */
 }
 
 nav a {
